@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sao Hỏa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2F4F4F;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            font-family: sans-serif;
+            background-color: black;
+            border-radius: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        div.center {
+            display: flex;
+            justify-content: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        h2 {
+            color: #2F4F4F;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #ffcc00;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span style="font-size: 40px"><span style="color: white"><b>Sao Hỏa</b></span></span><br>
+    <img src="h.jpg" width="569" height="320" alt="Hình ảnh của Sao Hỏa">
+</header>
+
+<section>
+    <h2>Giới Thiệu</h2>
+    <p>Sao Hỏa là hành tinh thứ tư từ Mặt Trời và được biết đến như là "hành tinh đỏ" do màu sắc đặc trưng của nó. 
+    Nó có bề mặt đá, khí quyển mỏng và là một trong những hành tinh được nghiên cứu nhiều nhất trong Hệ Mặt Trời.</p>
+    <div class="center">
+        <img src="h2.jpg"width="400"height="200" alt="đất">
+    </div>
+</section>
+
+<section>
+    <h2>Thông tin về Sao Hỏa</h2>
+    <table>
+        <tr>
+            <th>Thông Tin</th>
+            <th>Giá Trị</th>
+        </tr>
+        <tr>
+            <td>Khoảng Cách Từ Mặt Trời</td>
+            <td>227,943,824 km (1.52 AU)</td>
+        </tr>
+        <tr>
+            <td>Thời Gian Một Ngày</td>
+            <td>24.6 giờ</td>
+        </tr>
+        <tr>
+            <td>Thời Gian Một Năm</td>
+            <td>687 ngày Trái Đất</td>
+        </tr>
+        <tr>
+            <td>Khối Lượng</td>
+            <td>6.42 × 10<sup>23</sup> kg</td>
+        </tr>
+        <tr>
+            <td>Đường Kính</td>
+            <td>6,779 km</td>
+        </tr>
+        <tr>
+            <td>Nhiệt Độ Trung Bình</td>
+            <td>210 K (-63 °C)</td>
+        </tr>
+        <tr>
+            <td>Số Mặt Trăng</td>
+            <td>2 (Phobos và Deimos)</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Âm thanh của Sao Hỏa</h2>
+    <audio src="h.mp3" controls></audio>
+</section>
+
+<section>
+    <h2>Ý Kiến Người Dùng</h2>
+    <form action="thanks.html" id="feedback-form">
+        <label for="name">Tên của bạn:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email của bạn:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ý kiến của bạn:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gửi Ý Kiến</button>
+    </form>
+</section>
+
+<footer>
+    <p>Trang web được tạo bởi Lê Huy Hoàng</p>
+    <p>Liên hê: Email (huyhoangculin2007@gmail.com)</p><br>
+    <p>&copy; Nguồn: Các trang mạng và Wikipedia</p>
+</footer>
+</body>
+</html>

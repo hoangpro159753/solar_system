@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sao Mộc</title>
+    <style>
+        :root {
+            --main-bg-color: #2F4F4F;
+            --header-bg-color: black;
+            --table-header-bg-color: #ffcc00;
+            --button-bg-color: #ffcc00;
+            --button-hover-bg-color: #e6b800;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--main-bg-color);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--header-bg-color);
+            border-radius: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        div.center {
+            display: flex;
+            justify-content: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        h2 {
+            color: #2F4F4F;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: var(--table-header-bg-color);
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: var(--button-bg-color);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: var(--button-hover-bg-color);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span style="font-size: 40px"><span style="color: white"><b>Sao Mộc</b></span></span><br>
+    <img src="m.jpg" alt="Hình ảnh của Sao Mộc" width="320" height="320">
+</header>
+
+<main>
+<section>
+    <h2>Giới Thiệu</h2>
+    <p>Sao Mộc là hành tinh lớn nhất trong Hệ Mặt Trời và được biết đến với các vết mây đặc trưng và các vành đai khí khổng lồ. 
+    Nó có một bầu khí quyển dày đặc và là một trong những hành tinh được nghiên cứu nhiều nhất.</p>
+    <div class="center">
+        <img src="m2.jpg" alt="Bề mặt Sao Mộc" width="400" height="200">
+    </div>
+</section>
+
+<section>
+    <h2>Thông tin về Sao Mộc</h2>
+    <table>
+        <tr>
+            <th>Thông Tin</th>
+            <th>Giá Trị</th>
+        </tr>
+        <tr>
+            <td>Khoảng Cách Từ Mặt Trời</td>
+            <td>778,340,821 km (5.20 AU)</td>
+        </tr>
+        <tr>
+            <td>Thời Gian Một Ngày</td>
+            <td>9.9 giờ</td>
+        </tr>
+        <tr>
+ <td>Thời Gian Một Năm</td>
+            <td>11.86 năm Trái Đất</td>
+        </tr>
+        <tr>
+            <td>Khối Lượng</td>
+            <td>1.90 × 10<sup>27</sup> kg</td>
+        </tr>
+        <tr>
+            <td>Đường Kính</td>
+            <td>139,822 km</td>
+        </tr>
+        <tr>
+            <td>Nhiệt Độ Trung Bình</td>
+            <td>165 K (-108 °C)</td>
+        </tr>
+        <tr>
+            <td>Số Mặt Trăng</td>
+            <td>95 (bao gồm Ganymede, Europa, và Io)</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Âm thanh của Sao Mộc</h2>
+    <audio src="m.mp3" controls></audio>
+</section>
+
+<section>
+    <h2>Ý Kiến Người Dùng</h2>
+    <form action="thanks.html" id="feedback-form">
+        <label for="name">Tên của bạn:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email của bạn:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ý kiến của bạn:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gửi Ý Kiến</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <p>Trang web được tạo bởi Lê Huy Hoàng</p>
+    <p>Liên hê: Email (huyhoangculin2007@gmail.com)</p><br>
+    <p>&copy; Nguồn: Các trang mạng và Wikipedia</p></footer>
+</body>
+</html>

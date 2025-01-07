@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tìm hiểu về Sao Hải Vương, hành tinh xa nhất trong Hệ Mặt Trời.">
+    <meta name="keywords" content="Sao Hải Vương, hành tinh, Hệ Mặt Trời, không gian">
+    <title>Sao Hải Vương</title>
+    <style>
+        :root {
+            --main-bg-color: #2F4F4F;
+            --header-bg-color: black;
+            --table-header-bg-color: #ffcc00;
+            --button-bg-color: #ffcc00;
+            --button-hover-bg-color: #e6b800;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--main-bg-color);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--header-bg-color);
+            border-radius: 10px;
+        }
+        h1 {
+            margin: 0;
+        }
+        div.center {
+            display: flex;
+            justify-content: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        h2 {
+            color: #2F4F4F;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: var(--table-header-bg-color);
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: var(--button-bg-color);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: var(--button-hover-bg-color);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span style="font-size: 40px"><span style="color: white"><b>Sao Hải Vương</b></span></span><br>
+    <img src="hv.jpg" alt="Hình ảnh của Sao Hải Vương" width="569" height="320">
+</header>
+
+<main>
+<section>
+    <h2>Giới Thiệu</h2>
+    <p>Sao Hải Vương là hành tinh thứ chín và cũng là hành tinh xa nhất trong Hệ Mặt Trời. 
+    Nó nổi tiếng với màu xanh đậm và bầu khí quyển gió mạnh, cùng với các đám mây mù mịt. 
+    Sao Hải Vương là hành tinh lạnh nhất trong Hệ Mặt Trời.</p>
+    <div class="center">
+        <img src="hv2.jpg" alt="Bề mặt Sao Hải Vương" width="400" height="200">
+    </div>
+</section>
+
+<section>
+    <h2>Thông tin về Sao Hải Vương</h2>
+    <table>
+        <tr>
+            <th>Thông Tin</th>
+            <th>Giá Trị</th>
+        </tr>
+        <tr>
+            <td>Khoảng Cách Từ Mặt Trời</td>
+            <td>4,498,252,900 km (30.07 AU)</td>
+        </tr>
+        <tr>
+            <td>Thời Gian Một Ngày</td>
+            <td>16.11 giờ</td>
+        </tr>
+        <tr>
+            <td>Thời Gian Một Năm</td>
+            <td>164.79 năm Trái Đất</td>
+        </tr>
+        <tr>
+            <td>Khối Lượng</td>
+            <td>1.02 × 10<sup>26</sup> kg</td>
+        </tr>
+        <tr>
+            <td>Đường Kính</td>
+            <td>49,244 km</td>
+        </tr>
+        <tr>
+            <td>Nhiệt Độ Trung Bình</td>
+            <td>72 K (-201 °C)</td>
+        </tr>
+        <tr>
+            <td>Số Mặt Trăng</td>
+            <td>16 (bao gồm Triton, Nereid, và Proteus)</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Âm thanh của Sao Hải Vương</h2>
+    <audio src="hv.mp3" controls></audio>
+</section>
+
+<section>
+    <h2>Ý Kiến Người Dùng</h2>
+    <form action="thanks.html" id="feedback-form">
+        <label for="name">Tên của bạn:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email của bạn:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ý kiến của bạn:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gửi Ý Kiến</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    <p>Trang web được tạo bởi Lê Huy Hoàng</p>
+    <p>Liên hê: Email (huyhoangculin2007@gmail.com)</p><br>
+    <p>&copy; Nguồn: Các trang mạng và Wikipedia</p>
+</footer>
+</body>
+</html>
